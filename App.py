@@ -48,9 +48,4 @@ if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(debug=True, host="0.0.0.0", threaded=True, port=port)
 
-    """
-    {
-    "idea1": "go and practice dancing",
-    "idea2": "find a dancing partner",
-    "idea3": "kill yourself"
-}"""
+  
